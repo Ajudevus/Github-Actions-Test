@@ -28,7 +28,7 @@ jobs:
       # Runs a single command using the runners shell
     
       - uses: actions/checkout@v2
-      - shell: cmd
+      
       - name: Run script
         run: python C:/Users/Arjun Gowda/Desktop/office/actions-runner/_work/Github-Actions-Test/Github-Actions-Test/.github/workflows/test.py
 
